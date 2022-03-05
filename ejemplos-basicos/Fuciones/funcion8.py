@@ -11,9 +11,9 @@ def varios(*numeros):
  
     for j in numeros:
         varianza = varianza + (j-media)**2
-    v2=varianza/(len(numeros)-1)
-    desviacion=v2**(1/2)
-
+    v2=varianza/(len(numeros))
+    desviacion=v2**(1/2)    
+    print(desviacion)
         
         
-varios(10, 32, 24, 26, 40, 30)
+varios(10, 32, 24, 26, 40, 30)  
